@@ -1,0 +1,28 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+}
+
+@media all and (max-width: 800px) {
+  .container {
+    padding: 0 15px;
+    width: 100%;
+  }
+}
